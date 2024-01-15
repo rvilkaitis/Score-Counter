@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.counter {
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 750px;
+  height: 550px;
+  background: rgb(18, 243, 11);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 243, 11, 1) 35%,
+    rgba(255, 0, 0, 1) 64%
+  );
+  border: #030303 solid 2px;
+  border-radius: 20px;
+}
+.mainScores {
+  display: flex;
+  justify-content: space-around;
+  gap: 200px;
+  flex-basis: 1;
+}
+h1 {
+  justify-content: space-between;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+}
+p {
+  font-size: 30px;
+  font-family: 'Roboto', 'sans-serif';
+  text-align: center;
+}
+img {
+  display: flex;
+  justify-content: center;
+}
+
+#logo1,
+#logo2 {
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  object-fit: cover;
+  width: 121px;
+  height: 121px;
+  border: 30px #030303;
+  border-radius: 70px;
+}
+#logo1 {
+  position: absolute;
+  top: 100px;
+  left: 110px;
+}
+#logo2 {
+  position: absolute;
+  top: 106px;
+  left: 519px;
+}
+.increase1,
+.increase2,
+.increase3 {
+  box-shadow: inset 0px 1px 0px 0px #caefab;
+  background: linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+  background-color: #77d42a;
+  border-radius: 6px;
+  border: 1px solid #268a16;
+  display: inline-block;
+  cursor: pointer;
+  color: #306108;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #aade7c;
+}
+.increase1:hover,
+.increase2:hover,
+.increase3:hover {
+  background: linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+  background-color: #5cb811;
+}
+
+.increase11,
+.increase22,
+.increase33 {
+  box-shadow: inset 0px 1px 0px 0px #f00000;
+  background: linear-gradient(to bottom, #f20e0e 5%, #11140e 100%);
+  background-color: #f20e0e;
+  border-radius: 6px;
+  border: 1px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #445236;
+}
+.increase11:hover,
+.increase22:hover,
+.increase33:hover {
+  background: linear-gradient(to bottom, #11140e 5%, #f20e0e 100%);
+  background-color: #11140e;
+}
